@@ -1,5 +1,6 @@
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
+import Header from "components/molecules/header";
 
 // /Users/ks / projects / front / motivation - app / src / components / layout.tsx;
 
@@ -17,5 +18,10 @@ export default function Point() {
     return "Loading or not authenticated...";
   }
 
-  return <h1 className="text-xl text-red-500">Welcome to Your Point Page!</h1>;
+  return (
+    <>
+      <Header />
+      <h1>合計獲得ポイント</h1>
+    </>
+  );
 }
