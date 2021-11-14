@@ -4,7 +4,7 @@ import Header from "components/molecules/header";
 
 // /Users/ks / projects / front / motivation - app / src / components / layout.tsx;
 
-export default function Point() {
+export default function Points() {
   const router = useRouter();
 
   const { status } = useSession({
