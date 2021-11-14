@@ -6,11 +6,8 @@ import { lgxl, mdlgxl } from "styles/media";
 import LinkList from "components/molecules/linkList";
 import PageMenu from "components/molecules/PageMenu";
 import HamburgerMenuIcon from "components/atoms/HamburgerMenuIcon";
-export default class Header extends React.Component {
-  static propTypes = {
-    showBio: PropTypes.bool.isRequired,
-  };
 
+export default class Header extends React.Component {
   constructor(props) {
     super(props);
 
